@@ -1,0 +1,6 @@
+addi x1, x0, 7
+jal x2, quadrl
+fence
+quadrl:
+slli x1, x1, 2
+jalr zero, 0(x2)

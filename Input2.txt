@@ -1,0 +1,12 @@
+fact:
+addi x2, x0, 20
+lw x1, 0(x2 )
+slti x3, x1, 1
+beq x3, x0, L
+addi x1, x0, 1
+ecall
+L: 
+addi x1, x1, -1
+jal x0, fact
+addi x3, x1, 0
+ecall

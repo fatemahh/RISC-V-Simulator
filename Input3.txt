@@ -1,0 +1,15 @@
+addi x2, x0, 7
+addi x1, x0, 3
+bge x2, x1, fib_ric 
+addi x2, x0, 1 
+ebreak
+	
+fib_ric:	
+addi x2, x2, -1 
+jal fib 
+
+addi x2, x2, -2 
+jal fib
+add x2, x2, x1
+
+ebreak

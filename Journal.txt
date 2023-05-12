@@ -1,0 +1,9 @@
+May 4, 11:50PM: did a mind map of the functions and how the code would look like, and discussed it with my teammates. Decided to write the code in C++, and with functions for each instructions.
+May 7, 8:30PM: corrected the code started by my teammmate, rewrote all the opcodes and halting options, rewrote some of the code inside each instruction and added the constant zero register.
+May 8, 12:00AM: finished correcting all the opcodes, troubleshooted some more issues with the code
+May 8, 10:00PM: choose the bonuses for the project, our code is for an input file written in binary machine code, brainstormed with my teammates for continuing further the code
+May 9, 9:00PM: we had a zoom meeting, and decided to rewrite the code because our basics were wrong, written for an machine code input file
+May 9, 10:30PM: created the new file, wrote the NUM_REG, instruction struct, register vector, memory map, pc, split string function, split string 2 function for the instruction, and rewrote all the switch case for the execute function, also rewrote the main in a more eligible clearer way
+May 10, 2:00AM: rewrote all the execute function with the correct execution for each instruction
+May 10, 9:00PM: wrote some more lines, for the if cases with each execution, for each fomart R, I SB, and UJ, wrote the testcases
+May 11, 2:00PM: wrote instructions for the load and store, (lb, lh, lw, lbu...) and wrote the report.
